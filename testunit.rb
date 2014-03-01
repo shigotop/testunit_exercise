@@ -4,7 +4,7 @@ require "./nameinspecter.rb"
 # テスト用クラス（Test::Unit::TestCaseを継承）
 class TC_NameInspecter < Test::Unit::TestCase
 
-　# setup：test_メソッドの直前に毎回呼び出されるメソッド
+  # setup：test_メソッドの直前に毎回呼び出されるメソッド
   def setup
     obj = NameInspecter.new
   end
